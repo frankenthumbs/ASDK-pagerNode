@@ -1,0 +1,6 @@
+framework module Pods_ASDK_PagerNodeTests {
+  umbrella header "Pods-ASDK-PagerNodeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

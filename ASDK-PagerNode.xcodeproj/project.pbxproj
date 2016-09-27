@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198B512EDD1E376A3530AE20 /* Pods_ASDK_PagerNodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B54E3F6D73783E5C104CAA42 /* Pods_ASDK_PagerNodeTests.framework */; };
+		488B53BA1D99EAB700176AF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B53B91D99EAB700176AF7 /* AppDelegate.swift */; };
+		488B53BC1D99EAB700176AF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B53BB1D99EAB700176AF7 /* ViewController.swift */; };
+		488B53C11D99EAB700176AF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488B53C01D99EAB700176AF7 /* Assets.xcassets */; };
+		488B53C41D99EAB700176AF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488B53C21D99EAB700176AF7 /* LaunchScreen.storyboard */; };
+		488B53CF1D99EAB800176AF7 /* ASDK_PagerNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B53CE1D99EAB800176AF7 /* ASDK_PagerNodeTests.swift */; };
+		488B53DA1D99EAB800176AF7 /* ASDK_PagerNodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B53D91D99EAB800176AF7 /* ASDK_PagerNodeUITests.swift */; };
+		488B53E81D99ECEF00176AF7 /* PresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B53E71D99ECEF00176AF7 /* PresentingViewController.swift */; };
+		488B53EB1D99EF4900176AF7 /* ColorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B53EA1D99EF4900176AF7 /* ColorNode.swift */; };
+		488B53ED1D99F88900176AF7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488B53EC1D99F88900176AF7 /* MainViewController.swift */; };
+		692EA4D48CA1FF06ED586010 /* Pods_ASDK_PagerNode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4B9A1E2CCEA2809CB4437F /* Pods_ASDK_PagerNode.framework */; };
+		800C1A3DEFA37CDA8CDB7BA9 /* Pods_ASDK_PagerNodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 393F7E0B3DA78ADD7E18B79A /* Pods_ASDK_PagerNodeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		488B53CB1D99EAB800176AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488B53AE1D99EAB700176AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488B53B51D99EAB700176AF7;
+			remoteInfo = "ASDK-PagerNode";
+		};
+		488B53D61D99EAB800176AF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488B53AE1D99EAB700176AF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488B53B51D99EAB700176AF7;
+			remoteInfo = "ASDK-PagerNode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12EB1B15DFD51BBEBA39C254 /* Pods-ASDK-PagerNodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-PagerNodeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-PagerNodeUITests/Pods-ASDK-PagerNodeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3494B559BC38345146983A8B /* Pods-ASDK-PagerNodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-PagerNodeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-PagerNodeUITests/Pods-ASDK-PagerNodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		393F7E0B3DA78ADD7E18B79A /* Pods_ASDK_PagerNodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDK_PagerNodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		488B53B61D99EAB700176AF7 /* ASDK-PagerNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASDK-PagerNode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		488B53B91D99EAB700176AF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		488B53BB1D99EAB700176AF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		488B53C01D99EAB700176AF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		488B53C31D99EAB700176AF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		488B53C51D99EAB700176AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488B53CA1D99EAB800176AF7 /* ASDK-PagerNodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASDK-PagerNodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		488B53CE1D99EAB800176AF7 /* ASDK_PagerNodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASDK_PagerNodeTests.swift; sourceTree = "<group>"; };
+		488B53D01D99EAB800176AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488B53D51D99EAB800176AF7 /* ASDK-PagerNodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASDK-PagerNodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		488B53D91D99EAB800176AF7 /* ASDK_PagerNodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASDK_PagerNodeUITests.swift; sourceTree = "<group>"; };
+		488B53DB1D99EAB800176AF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488B53E71D99ECEF00176AF7 /* PresentingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentingViewController.swift; sourceTree = "<group>"; };
+		488B53E91D99ED6500176AF7 /* ASDK-PagerNode-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASDK-PagerNode-Bridging-Header.h"; sourceTree = "<group>"; };
+		488B53EA1D99EF4900176AF7 /* ColorNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorNode.swift; sourceTree = "<group>"; };
+		488B53EC1D99F88900176AF7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		5F4B9A1E2CCEA2809CB4437F /* Pods_ASDK_PagerNode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDK_PagerNode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AAD390A72AC7DD62C16A13 /* Pods-ASDK-PagerNode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-PagerNode.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-PagerNode/Pods-ASDK-PagerNode.release.xcconfig"; sourceTree = "<group>"; };
+		972633321F90C1E1AB680ABC /* Pods-ASDK-PagerNode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-PagerNode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-PagerNode/Pods-ASDK-PagerNode.debug.xcconfig"; sourceTree = "<group>"; };
+		B54E3F6D73783E5C104CAA42 /* Pods_ASDK_PagerNodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASDK_PagerNodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C739F43DB39CE25313BB2965 /* Pods-ASDK-PagerNodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-PagerNodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-PagerNodeTests/Pods-ASDK-PagerNodeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB1AABF53188E03EC83DEF9C /* Pods-ASDK-PagerNodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDK-PagerNodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASDK-PagerNodeTests/Pods-ASDK-PagerNodeTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		488B53B31D99EAB700176AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692EA4D48CA1FF06ED586010 /* Pods_ASDK_PagerNode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488B53C71D99EAB800176AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198B512EDD1E376A3530AE20 /* Pods_ASDK_PagerNodeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488B53D21D99EAB800176AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800C1A3DEFA37CDA8CDB7BA9 /* Pods_ASDK_PagerNodeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EFDA54698760A1AF1AA4395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				972633321F90C1E1AB680ABC /* Pods-ASDK-PagerNode.debug.xcconfig */,
+				91AAD390A72AC7DD62C16A13 /* Pods-ASDK-PagerNode.release.xcconfig */,
+				C739F43DB39CE25313BB2965 /* Pods-ASDK-PagerNodeTests.debug.xcconfig */,
+				FB1AABF53188E03EC83DEF9C /* Pods-ASDK-PagerNodeTests.release.xcconfig */,
+				3494B559BC38345146983A8B /* Pods-ASDK-PagerNodeUITests.debug.xcconfig */,
+				12EB1B15DFD51BBEBA39C254 /* Pods-ASDK-PagerNodeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		488B53AD1D99EAB700176AF7 = {
+			isa = PBXGroup;
+			children = (
+				488B53B81D99EAB700176AF7 /* ASDK-PagerNode */,
+				488B53CD1D99EAB800176AF7 /* ASDK-PagerNodeTests */,
+				488B53D81D99EAB800176AF7 /* ASDK-PagerNodeUITests */,
+				488B53B71D99EAB700176AF7 /* Products */,
+				1EFDA54698760A1AF1AA4395 /* Pods */,
+				ECE24C69D4EF18F675943450 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		488B53B71D99EAB700176AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				488B53B61D99EAB700176AF7 /* ASDK-PagerNode.app */,
+				488B53CA1D99EAB800176AF7 /* ASDK-PagerNodeTests.xctest */,
+				488B53D51D99EAB800176AF7 /* ASDK-PagerNodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		488B53B81D99EAB700176AF7 /* ASDK-PagerNode */ = {
+			isa = PBXGroup;
+			children = (
+				488B53B91D99EAB700176AF7 /* AppDelegate.swift */,
+				488B53BB1D99EAB700176AF7 /* ViewController.swift */,
+				488B53C01D99EAB700176AF7 /* Assets.xcassets */,
+				488B53C21D99EAB700176AF7 /* LaunchScreen.storyboard */,
+				488B53C51D99EAB700176AF7 /* Info.plist */,
+				488B53E71D99ECEF00176AF7 /* PresentingViewController.swift */,
+				488B53E91D99ED6500176AF7 /* ASDK-PagerNode-Bridging-Header.h */,
+				488B53EA1D99EF4900176AF7 /* ColorNode.swift */,
+				488B53EC1D99F88900176AF7 /* MainViewController.swift */,
+			);
+			path = "ASDK-PagerNode";
+			sourceTree = "<group>";
+		};
+		488B53CD1D99EAB800176AF7 /* ASDK-PagerNodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				488B53CE1D99EAB800176AF7 /* ASDK_PagerNodeTests.swift */,
+				488B53D01D99EAB800176AF7 /* Info.plist */,
+			);
+			path = "ASDK-PagerNodeTests";
+			sourceTree = "<group>";
+		};
+		488B53D81D99EAB800176AF7 /* ASDK-PagerNodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				488B53D91D99EAB800176AF7 /* ASDK_PagerNodeUITests.swift */,
+				488B53DB1D99EAB800176AF7 /* Info.plist */,
+			);
+			path = "ASDK-PagerNodeUITests";
+			sourceTree = "<group>";
+		};
+		ECE24C69D4EF18F675943450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F4B9A1E2CCEA2809CB4437F /* Pods_ASDK_PagerNode.framework */,
+				B54E3F6D73783E5C104CAA42 /* Pods_ASDK_PagerNodeTests.framework */,
+				393F7E0B3DA78ADD7E18B79A /* Pods_ASDK_PagerNodeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		488B53B51D99EAB700176AF7 /* ASDK-PagerNode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488B53DE1D99EAB800176AF7 /* Build configuration list for PBXNativeTarget "ASDK-PagerNode" */;
+			buildPhases = (
+				E98725BA65EE2A834F1F1253 /* [CP] Check Pods Manifest.lock */,
+				488B53B21D99EAB700176AF7 /* Sources */,
+				488B53B31D99EAB700176AF7 /* Frameworks */,
+				488B53B41D99EAB700176AF7 /* Resources */,
+				A178200DAB72ABFB717B6D8B /* [CP] Embed Pods Frameworks */,
+				21925BE0E4FB28B2C727BC9C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASDK-PagerNode";
+			productName = "ASDK-PagerNode";
+			productReference = 488B53B61D99EAB700176AF7 /* ASDK-PagerNode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		488B53C91D99EAB800176AF7 /* ASDK-PagerNodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488B53E11D99EAB800176AF7 /* Build configuration list for PBXNativeTarget "ASDK-PagerNodeTests" */;
+			buildPhases = (
+				9579641986049D853BED9C92 /* [CP] Check Pods Manifest.lock */,
+				488B53C61D99EAB800176AF7 /* Sources */,
+				488B53C71D99EAB800176AF7 /* Frameworks */,
+				488B53C81D99EAB800176AF7 /* Resources */,
+				713F062840A6F02BA2E562AB /* [CP] Embed Pods Frameworks */,
+				0AD294EB5D43D12459DF710F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488B53CC1D99EAB800176AF7 /* PBXTargetDependency */,
+			);
+			name = "ASDK-PagerNodeTests";
+			productName = "ASDK-PagerNodeTests";
+			productReference = 488B53CA1D99EAB800176AF7 /* ASDK-PagerNodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		488B53D41D99EAB800176AF7 /* ASDK-PagerNodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488B53E41D99EAB800176AF7 /* Build configuration list for PBXNativeTarget "ASDK-PagerNodeUITests" */;
+			buildPhases = (
+				75877188AD676703D05CF945 /* [CP] Check Pods Manifest.lock */,
+				488B53D11D99EAB800176AF7 /* Sources */,
+				488B53D21D99EAB800176AF7 /* Frameworks */,
+				488B53D31D99EAB800176AF7 /* Resources */,
+				2711AD280B111F102B5D1963 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488B53D71D99EAB800176AF7 /* PBXTargetDependency */,
+			);
+			name = "ASDK-PagerNodeUITests";
+			productName = "ASDK-PagerNodeUITests";
+			productReference = 488B53D51D99EAB800176AF7 /* ASDK-PagerNodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		488B53AE1D99EAB700176AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = NFL;
+				TargetAttributes = {
+					488B53B51D99EAB700176AF7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					488B53C91D99EAB800176AF7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 488B53B51D99EAB700176AF7;
+					};
+					488B53D41D99EAB800176AF7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 488B53B51D99EAB700176AF7;
+					};
+				};
+			};
+			buildConfigurationList = 488B53B11D99EAB700176AF7 /* Build configuration list for PBXProject "ASDK-PagerNode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 488B53AD1D99EAB700176AF7;
+			productRefGroup = 488B53B71D99EAB700176AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				488B53B51D99EAB700176AF7 /* ASDK-PagerNode */,
+				488B53C91D99EAB800176AF7 /* ASDK-PagerNodeTests */,
+				488B53D41D99EAB800176AF7 /* ASDK-PagerNodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		488B53B41D99EAB700176AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488B53C41D99EAB700176AF7 /* LaunchScreen.storyboard in Resources */,
+				488B53C11D99EAB700176AF7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488B53C81D99EAB800176AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488B53D31D99EAB800176AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AD294EB5D43D12459DF710F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDK-PagerNodeTests/Pods-ASDK-PagerNodeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21925BE0E4FB28B2C727BC9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDK-PagerNode/Pods-ASDK-PagerNode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2711AD280B111F102B5D1963 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDK-PagerNodeUITests/Pods-ASDK-PagerNodeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		713F062840A6F02BA2E562AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDK-PagerNodeTests/Pods-ASDK-PagerNodeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75877188AD676703D05CF945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9579641986049D853BED9C92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A178200DAB72ABFB717B6D8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDK-PagerNode/Pods-ASDK-PagerNode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98725BA65EE2A834F1F1253 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488B53B21D99EAB700176AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488B53BC1D99EAB700176AF7 /* ViewController.swift in Sources */,
+				488B53E81D99ECEF00176AF7 /* PresentingViewController.swift in Sources */,
+				488B53BA1D99EAB700176AF7 /* AppDelegate.swift in Sources */,
+				488B53EB1D99EF4900176AF7 /* ColorNode.swift in Sources */,
+				488B53ED1D99F88900176AF7 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488B53C61D99EAB800176AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488B53CF1D99EAB800176AF7 /* ASDK_PagerNodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488B53D11D99EAB800176AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488B53DA1D99EAB800176AF7 /* ASDK_PagerNodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		488B53CC1D99EAB800176AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488B53B51D99EAB700176AF7 /* ASDK-PagerNode */;
+			targetProxy = 488B53CB1D99EAB800176AF7 /* PBXContainerItemProxy */;
+		};
+		488B53D71D99EAB800176AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488B53B51D99EAB700176AF7 /* ASDK-PagerNode */;
+			targetProxy = 488B53D61D99EAB800176AF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		488B53C21D99EAB700176AF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488B53C31D99EAB700176AF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		488B53DC1D99EAB800176AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		488B53DD1D99EAB800176AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		488B53DF1D99EAB800176AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972633321F90C1E1AB680ABC /* Pods-ASDK-PagerNode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ASDK-PagerNode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joon.ASDK-PagerNode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		488B53E01D99EAB800176AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91AAD390A72AC7DD62C16A13 /* Pods-ASDK-PagerNode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ASDK-PagerNode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joon.ASDK-PagerNode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		488B53E21D99EAB800176AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C739F43DB39CE25313BB2965 /* Pods-ASDK-PagerNodeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ASDK-PagerNodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joon.ASDK-PagerNodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASDK-PagerNode.app/ASDK-PagerNode";
+			};
+			name = Debug;
+		};
+		488B53E31D99EAB800176AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB1AABF53188E03EC83DEF9C /* Pods-ASDK-PagerNodeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ASDK-PagerNodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joon.ASDK-PagerNodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASDK-PagerNode.app/ASDK-PagerNode";
+			};
+			name = Release;
+		};
+		488B53E51D99EAB800176AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3494B559BC38345146983A8B /* Pods-ASDK-PagerNodeUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "ASDK-PagerNodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joon.ASDK-PagerNodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ASDK-PagerNode";
+			};
+			name = Debug;
+		};
+		488B53E61D99EAB800176AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EB1B15DFD51BBEBA39C254 /* Pods-ASDK-PagerNodeUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "ASDK-PagerNodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joon.ASDK-PagerNodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ASDK-PagerNode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		488B53B11D99EAB700176AF7 /* Build configuration list for PBXProject "ASDK-PagerNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488B53DC1D99EAB800176AF7 /* Debug */,
+				488B53DD1D99EAB800176AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488B53DE1D99EAB800176AF7 /* Build configuration list for PBXNativeTarget "ASDK-PagerNode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488B53DF1D99EAB800176AF7 /* Debug */,
+				488B53E01D99EAB800176AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488B53E11D99EAB800176AF7 /* Build configuration list for PBXNativeTarget "ASDK-PagerNodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488B53E21D99EAB800176AF7 /* Debug */,
+				488B53E31D99EAB800176AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488B53E41D99EAB800176AF7 /* Build configuration list for PBXNativeTarget "ASDK-PagerNodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488B53E51D99EAB800176AF7 /* Debug */,
+				488B53E61D99EAB800176AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 488B53AE1D99EAB700176AF7 /* Project object */;
+}
